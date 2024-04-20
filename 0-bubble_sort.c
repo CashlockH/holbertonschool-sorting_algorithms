@@ -6,9 +6,9 @@
  */
 void bubble_sort(int *array, size_t size)
 {
-int swapped = 1, i = 1, temp, n = size;
+	int swapped = 1, i = 1, temp, n = size;
 
-	while (swapped)
+	while (swapped && size != 1)
 	{
 		swapped = 0, i = 0;
 		for (; i < n ; i++)
