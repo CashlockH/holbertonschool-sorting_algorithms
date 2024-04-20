@@ -9,11 +9,11 @@ void selection_sort(int *array, size_t size)
 {
 	int min, i = 0, j, n = size, tmp;
 
-	for (; i < size ; i++)
+	for (; i < n ; i++)
 	{
 		min = i, j = 0;
 
-		for (j = i + 1 ; j < size ; j++)
+		for (j = i + 1 ; j < n ; j++)
 		{
 			if (array[min] > array[j])
 			min = j;
